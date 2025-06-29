@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>THE FLAMBOYANT CALC</title>
+  <link rel="stylesheet" href="Calc.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Matangi:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>THE FLAMBOYANT CALC</h1>
+  <input type="text" class="display-box" readonly>
+  <div class="buttons">
+    <div class="number-buttons">
+     <button class="number-button" onclick="enter(1)">1</button>
+     <button class="number-button" onclick="enter(2)">2</button>
+     <button class="number-button"onclick="enter(3)">3</button>
+     <button class="number-button" onclick="enter(4)">4</button>
+     <button class="number-button" onclick="enter(5)">5</button>
+     <button class="number-button" onclick="enter(6)">6</button>
+     <button class="number-button" onclick="enter(7)">7</button>
+     <button class="number-button" onclick="enter(8)">8</button>
+     <button class="number-button" onclick="enter(9)">9</button>
+     <button class="number-button" onclick="clearDisplay()">AC</button>
+     <button class="number-button" onclick="enter(0)">0</button>
+     <button class="number-button" onclick="calcu()">=</button>
+    </div>
+   <div class="operator-column">
+    <button class="operator-buttons" onclick="enter('+')">+</button>
+    <button class="operator-buttons" onclick="enter('-')">-</button>
+    <button class="operator-buttons" onclick="enter('*')">×</button>
+    <button class="operator-buttons" onclick="enter('/')">÷</button>
+   </div>
+ </div>
+</body>
+<script src="Calc.js"></script>
+</html>
